@@ -1,0 +1,51 @@
+@media (min-width: 600px) {
+    h1::before {
+        content: "Introduction to the beautiful sport of Archery";
+    }
+}
+
+@media (max-width: 599px) {
+    h1::before {
+        content: "Intro to archery";
+    }
+}
+h1{
+  padding: 20px;
+  color: rgb(0, 1, 125);
+  text-align: center;
+  border: 5px ridge rgb(0, 5, 250);
+  background-color: lightpink
+}
+body{
+  background-color: black
+}
+.grid {
+    background-color: springgreen;
+    color: rgb(5, 26, 208);
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 7px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50% 50%
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item-history{
+    color: rgb(5, 26, 208);
+    background-color: lightgrey;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item-table{
+    color: rgb(5, 26, 208);
+    background-color: rgb(73, 131, 143);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
