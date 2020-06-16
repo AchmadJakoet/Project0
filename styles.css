@@ -16,17 +16,21 @@ h1{
   border: 5px ridge rgb(0, 5, 250);
   background-color: lightpink
 }
+h4{
+  border-bottom: 3px solid rgb(5, 26, 208)
+}
 body{
-  background-color: black
+  background-color: springgreen
 }
 .grid {
-    background-color: springgreen;
+    background-color: black;
     color: rgb(5, 26, 208);
     display: grid;
     padding: 20px;
     grid-column-gap: 7px;
+    grid-row-gap: 2px;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 50% 50% 50%
+    grid-template-rows: auto auto auto
 }
 
 .grid-item {
@@ -49,3 +53,23 @@ body{
     padding: 20px;
     text-align: center;
 }
+.grid-item-Facts{
+    color: rgb(5, 26, 208);
+    background-color: rgb(196, 170, 35);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item-Styles{
+    color: rgb(5, 26, 208);
+    background-color: rgb(48, 164, 244);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .grid-item-Religion{
+      color: rgb(5, 26, 208);
+      background-color: rgb(222, 49, 55);
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
