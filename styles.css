@@ -46,12 +46,30 @@ body{
     padding: 20px;
     text-align: center;
 }
+img{
+  width: 100%
+}
 .grid-item-table{
     color: rgb(5, 26, 208);
     background-color: rgb(73, 131, 143);
     font-size: 20px;
     padding: 20px;
     text-align: center;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
 }
 .grid-item-Facts{
     color: rgb(5, 26, 208);
