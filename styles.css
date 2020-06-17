@@ -49,28 +49,7 @@ body{
 img{
   width: 100%
 }
-.grid-item-table{
-    color: rgb(5, 26, 208);
-    background-color: rgb(73, 131, 143);
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-}
-table {
-    border: 2px solid black;
-    border-collapse: collapse;
-    width: 100%;
-}
 
-th, td {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-}
-
-th {
-    background-color: lightgray;
-}
 .grid-item-Facts{
     color: rgb(5, 26, 208);
     background-color: rgb(196, 170, 35);
@@ -85,9 +64,53 @@ th {
     padding: 20px;
     text-align: center;
   }
-  .grid-item-Images{
+.grid-item-Images{
       color: rgb(5, 26, 208);
       background-color: rgb(222, 49, 55);
       font-size: 20px;
       padding: 20px;
       text-align: center;
+    }
+      .grid-item-table{
+          color: rgb(5, 26, 208);
+          background-color: rgb(73, 131, 143);
+          font-size: 20px;
+          padding: 20px;
+          text-align: center;
+      }
+      table {
+          border: 2px solid black;
+          border-collapse: collapse;
+          width: 100%; background-color: rgb(73, 131, 143)
+      }
+
+      th, td {
+          border: 1px solid black;
+          padding: 5px;
+          text-align: left;
+      }
+
+      th {
+          background-color: lightgray;
+      }
+      .grid-item-table{
+          color: rgb(5, 26, 208);
+          background-color: rgb(73, 131, 143);
+          font-size: 20px;
+          padding: 20px;
+          text-align: left;
+      }
+      .grid-item-vids{
+            color: rgb(5, 26, 208);
+            background-color: rgb(73, 131, 143);
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .grid-item-imgs{
+            color: rgb(5, 26, 208);
+            background-color: rgb(73, 131, 143);
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+        }
