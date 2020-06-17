@@ -29,8 +29,8 @@ body{
     padding: 20px;
     grid-column-gap: 7px;
     grid-row-gap: 2px;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: auto auto auto
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: auto auto
 }
 
 .grid-item {
@@ -76,7 +76,7 @@ th {
     background-color: rgb(196, 170, 35);
     font-size: 20px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 .grid-item-Styles{
     color: rgb(5, 26, 208);
@@ -85,7 +85,7 @@ th {
     padding: 20px;
     text-align: center;
   }
-  .grid-item-Religion{
+  .grid-item-Images{
       color: rgb(5, 26, 208);
       background-color: rgb(222, 49, 55);
       font-size: 20px;
