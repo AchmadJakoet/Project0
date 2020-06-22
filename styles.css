@@ -1,13 +1,13 @@
 @media (min-width: 600px) {
-    h1::before {
+    #Introduction::before {
         content: "Introduction to the beautiful sport of Archery";
     }
 }
 
 @media (max-width: 599px) {
-    h1::before {
+    #Introduction::before {
         content: "Intro to archery";
-    }
+      }
 }
 h1{
   padding: 20px;
@@ -18,6 +18,15 @@ h1{
 }
 h4{
   border-bottom: 3px solid rgb(5, 26, 208)
+}
+h3{
+  border-bottom: 3px solid rgb(5, 26, 208);
+  text-align: center;
+}
+h5{
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 body{
   background-color: springgreen
