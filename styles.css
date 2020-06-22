@@ -14,9 +14,10 @@ h1{
   color: rgb(0, 1, 125);
   text-align: center;
   border: 5px ridge rgb(0, 5, 250);
-  background-color: lightpink
+  background-color: rgb(176,169,32)
 }
 h4{
+  color: rgb(0, 27,204);
   border-bottom: 3px solid rgb(5, 26, 208)
 }
 h3{
@@ -29,11 +30,13 @@ h5{
   text-decoration: underline;
 }
 body{
-  background-color: lightblue
+   background-image: url("background2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 .grid {
-    background-color: black;
-    color: rgb(5, 26, 208);
+
+    color: rgb(5, 69, 245);
     display: grid;
     padding: 20px;
     grid-column-gap: 7px;
@@ -43,14 +46,14 @@ body{
 }
 
 .grid-item {
-    background-color: white;
+
     font-size: 20px;
     padding: 20px;
     text-align: center;
 }
 .grid-item-history{
     color: rgb(5, 26, 208);
-    background-color: lightgrey;
+
     font-size: 20px;
     padding: 20px;
     text-align: center;
@@ -61,68 +64,38 @@ img{
 
 .grid-item-Facts{
     color: rgb(5, 26, 208);
-    background-color: rgb(196, 170, 35);
+
     font-size: 20px;
     padding: 20px;
     text-align: left;
 }
-.grid-item-Styles{
-    color: rgb(5, 26, 208);
-    background-color: rgb(48, 164, 244);
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
+
   }
 .grid-item-Images{
       color: rgb(5, 26, 208);
-      background-color: rgb(222, 49, 55);
       font-size: 20px;
       padding: 20px;
       text-align: center;
     }
-      .grid-item-table{
-          color: rgb(5, 26, 208);
-          background-color: rgb(73, 131, 143);
-          font-size: 20px;
-          padding: 20px;
-          text-align: center;
-      }
+
+
       table {
-          border: 2px solid black;
+          border: 2px solid rgb(0, 27, 204);
+
           border-collapse: collapse;
-          width: 100%; background-color: rgb(73, 131, 143)
+          width: 100%;
+
       }
 
       th, td {
-          border: 1px solid black;
+        color: rgb(5, 69, 245);
+          border: 1px solid rgb(0, 27, 204);
           padding: 5px;
           text-align: left;
       }
-
-      th {
-          background-color: lightgray;
+      .row{
+        color: rgb(5, 69, 245)
       }
-      .grid-item-table{
-          color: rgb(5, 26, 208);
-          background-color: rgb(73, 131, 143);
-          font-size: 20px;
-          padding: 20px;
-          text-align: left;
-      }
-      .grid-item-vids{
-            color: rgb(5, 26, 208);
-            background-color: rgb(73, 131, 143);
-            font-size: 20px;
-            padding: 20px;
-            text-align: center;
-        }
-        .grid-item-imgs{
-            color: rgb(5, 26, 208);
-            background-color: rgb(73, 131, 143);
-            font-size: 20px;
-            padding: 20px;
-            text-align: center;
-        }
 
     .pics{
       width: 300px
